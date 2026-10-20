@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGER FMX | Street Food & Artisanal Burgers</title>
+
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR Y MENÚ RESPONSIVE -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <i class="fa-solid fa-burger logo-icon"></i>
+            BURGER <span class="highlight">FMX</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#combos">Combos</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Location</a></li>
+            </ul>
+
+            <div class="header-actions">
+                <a href="index-es.html" class="lang-switch">ES 🇦🇷</a>
+                <a href="#menu" class="btn-order glow-btn">ORDER NOW</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION CON FOTO LOCAL DE FONDO -->
+    <section id="home" class="hero" style="background-image: linear-gradient(to right, rgba(13,13,13,0.92), rgba(13,13,13,0.6)), url('images/Hamburguesa con pan de papa.png');">
+
+        <div class="hero-content">
+            <span class="badge-sticker pulse">
+                🔥 Made with dedication in every bite.
+            </span>
+
+            <h1 class="title-gigante">
+                SMASHED TO <span class="text-neon">PERFECTION</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Juicy Angus beef, melted cheddar, crispy bacon, and house and fresh potato bun. Simple, honest, and good.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary glow-btn">
+                    <i class="fa-solid fa-fire"></i> View Full Menu
+                </a>
+
+                <a href="#combos" class="btn-secondary">
+                    <i class="fa-solid fa-tag"></i> Special Combos
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-poster">
+            <div class="poster-badge rotate-left">
+                <i class="fa-solid fa-certificate"></i>
+                <span>100% FRESH BEEF</span>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SECCIÓN DE HISTORIA Y VALORES -->
+    <section id="story" class="story-section">
+
+        <div class="story-container">
+
+            <div class="story-text">
+                <span class="sub-heading">CRAFT & PASSION</span>
+
+                <h2 class="title-seccion">
+                    BORN ON THE STREETS, CRAFTED FOR BURGER LOVERS
+                </h2>
+
+                <p class="texto-cuerpo">
+                    Burger FMX started as an underground food truck with a single mission: bring back authentic, crispy-edged smash burgers made with raw passion and zero compromises.
+                </p>
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+                        <h3 class="title-mediano">50K+</h3>
+                        <p>Burgers Served</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3 class="title-mediano">100%</h3>
+                        <p>Daily Baked Buns</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3 class="title-mediano">4.9★</h3>
+                        <p>Customer Rating</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="story-image-box">
+                <div class="stamp-badge">EST. 2024</div>
+                <img src="images/2 de libra.png" alt="Burger FMX Craft" class="story-img">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENÚ PRINCIPAL CON TU FOTO -->
+    <section id="menu" class="menu-section">
+
+        <div class="section-header">
+            <span class="sub-heading">CRAVING SOMETHING EXTREME?</span>
+
+            <h2 class="title-seccion">
+                OUR SIGNATURE <span class="text-neon">CREATIONS</span>
+            </h2>
+        </div>
+
+
+        <div class="cards-container">
+
+            <!-- TARJETA 1 (USA TU NUEVA FOTO) -->
+            <div class="card highlight-card">
+
+                <div class="card-img-wrapper">
+                    <span class="card-tag tag-hot">BESTSELLER</span>
+                    <img src="images/comun.png" alt="Bacon Triple Monster">
+                </div>
+
+                <div class="card-info">
+
+                    <div class="card-header">
+                        <h3 class="title-tarjeta">Bacon cheddar Monster</h3>
+                        <span class="price">$11.80</span>
+                    </div>
+
+                    <p class="texto-cuerpo">
+                        A juicy beef patty topped with melted cheddar cheese, crispy onions, tangy pickles, and rich barbecue sauce, all served in a warm, toasted artisanal potato bun.
+                    </p>
+
+                    <button class="btn-card glow-btn">
+                        <i class="fa-solid fa-cart-shopping"></i> Add to Order
+                    </button>
+
+                </div>
+            </div>
+
+
+            <!-- TARJETA 2 -->
+            <div class="card">
+
+                <div class="card-img-wrapper">
+                    <span class="card-tag">🔥 ONE SMASH</span>
+                    <img src="images/2 de libra.png" alt="Classic FMX">
+                </div>
+
+                <div class="card-info">
+
+                    <div class="card-header">
+                        <h3 class="title-tarjeta">Bacon Triple Monster</h3>
+                        <span class="price">$14.00</span>
+                    </div>
+
+                    <p class="texto-cuerpo">
+                        Triple beef smash, smoked thick bacon, extra cheddar cheese layers, and smoky BBQ glaze served on a roasted wooden board with crispy fries.
+                    </p>
+
+                    <button class="btn-card">
+                        <i class="fa-solid fa-cart-shopping"></i> Add to Order
+                    </button>
+
+                </div>
+            </div>
+
+
+            <!-- TARJETA 3 -->
+            <div class="card">
+
+                <div class="card-img-wrapper">
+                    <span class="card-tag tag-veggie">light accompaniment</span>
+                    <img src="images/nuggetsfries.png" alt="Accompaniment FMX">
+                </div>
+
+                <div class="card-info">
+
+                    <div class="card-header">
+                        <h3 class="title-tarjeta">Fries and Nuggets FMX</h3>
+                        <span class="price">$8.20</span>
+                    </div>
+
+                    <p class="texto-cuerpo">
+                        basket of fries accompanied with a portion of nuggets plus zero coke included
+                    </p>
+
+                    <button class="btn-card">
+                        <i class="fa-solid fa-cart-shopping"></i> Add to Order
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NUEVA SECCIÓN: COMBOS & PROMOS -->
+    <section id="combos" class="combos-section">
+
+        <div class="section-header">
+            <span class="sub-heading">SAVE MORE & EAT BIG</span>
+
+            <h2 class="title-seccion">
+                SPECIAL <span class="text-neon">STREET COMBOS</span>
+            </h2>
+        </div>
+
+        <div class="combos-grid">
+
+            <div class="combo-box">
+                <span class="combo-badge">COMBO #1</span>
+
+                <h3>FULL FMX PACK</h3>
+
+                <p>
+                    Triple Bacon Monster + Large Seasoned Fries + Cold Craft Beer or Soda.
+                </p>
+
+                <div class="combo-price-box">
+                    <span class="old-price">$15.00</span>
+                    <span class="price">$12.50</span>
+                </div>
+            </div>
+
+
+            <div class="combo-box combo-featured">
+                <span class="combo-badge badge-accent">POPULAR</span>
+
+                <h3>DUO FEAST PACK</h3>
+
+                <p>
+                    2x Classic FMX Burgers + 2x Fries + 2x Drinks + Onion Rings Basket.
+                </p>
+
+                <div class="combo-price-box">
+                    <span class="old-price">$26.00</span>
+                    <span class="price">$21.90</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NUEVA SECCIÓN: RESEÑAS Y TESTIMONIOS -->
+    <section id="reviews" class="reviews-section">
+
+        <div class="section-header">
+            <span class="sub-heading">REAL FEEDBACK</span>
+
+            <h2 class="title-seccion">
+                WHAT OUR CUSTOMERS <span class="text-neon">SAY</span>
+            </h2>
+        </div>
+
+        <div class="reviews-grid">
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <p class="review-text">
+                    "Best smash burger in town hands down. The crispy edges on the beef and the secret sauce are unmatched!"
+                </p>
+
+                <span class="review-author">- Alex M.</span>
+            </div>
+
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <p class="review-text">
+                    "The Triple Bacon Monster is insane. Super fast delivery and the bread arrived warm and fresh."
+                </p>
+
+                <span class="review-author">- Sofia R.</span>
+            </div>
+
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <p class="review-text">
+                    "Great ambiance, urban vibe, and amazing quality ingredients. 10/10 recommendation."
+                </p>
+
+                <span class="review-author">- Lucas G.</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCIÓN DE UBICACIÓN Y CONTACTO -->
+    <footer id="contact" class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-col">
+
+                <a href="#" class="logo">
+                    BURGER <span class="highlight">FMX</span>
+                </a>
+
+                <p class="texto-cuerpo">
+                    Street food attitude, premium ingredients. Satisfying burger cravings daily.
+                </p>
+
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4 class="title-mediano">LOCATION & HOURS</h4>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Av. Corrientes 1234, Buenos Aires
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-clock"></i>
+                    Tue - Sun: 18:00 - 02:00
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +54 11 1234-5678
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 BURGER FMX. Hand-crafted Web Design Project by @urielccs.
+            </p>
+        </div>
+
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
