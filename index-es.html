@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGER FMX | Hamburguesas Artesanales & Street Food</title>
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR Y MENÚ RESPONSIVE -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <i class="fa-solid fa-burger logo-icon"></i>
+            BURGER <span class="highlight">FMX</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#story">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#combos">Combos</a></li>
+                <li><a href="#reviews">Reseñas</a></li>
+                <li><a href="#contact">Ubicación</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="index.html" class="lang-switch">EN 🇺🇸</a>
+                <a href="#menu" class="btn-order glow-btn">PEDIR AHORA</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION CON FOTO LOCAL DE FONDO -->
+    <section id="home" class="hero" style="background-image: linear-gradient(to right, rgba(13,13,13,0.92), rgba(13,13,13,0.6)), url('images/Hamburguesa\ con\ pan\ de\ papa.png');">
+        <div class="hero-content">
+            <span class="badge-sticker pulse">🔥 #1 STREET FOOD EN LA CIUDAD</span>
+            <h1 class="title-gigante">SMASHED A LA <span class="text-neon">PERFECCIÓN</span></h1>
+            <p class="hero-subtitle">100% Carne vacuna seleccionada, queso cheddar fundido, panceta crocante y nuestra salsa secreta FMX en pan de papa artesanal.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary glow-btn"><i class="fa-solid fa-fire"></i> Ver Menú</a>
+                <a href="#combos" class="btn-secondary"><i class="fa-solid fa-tag"></i> Promos Especiales</a>
+            </div>
+        </div>
+
+        <div class="hero-poster">
+            <div class="poster-badge rotate-left">
+                <i class="fa-solid fa-certificate"></i>
+                <span>100% CARNE FRESCA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE HISTORIA Y VALORES -->
+    <section id="story" class="story-section">
+        <div class="story-container">
+            <div class="story-text">
+                <span class="sub-heading">PASIÓN & OFICIO</span>
+                <h2 class="title-seccion">NACIDOS EN LA CALLE, CREADOS PARA FANÁTICOS DE LAS BURGERS</h2>
+                <p class="texto-cuerpo">Burger FMX nació como un food truck independiente con una sola misión: rescatar el auténtico sabor de las smash burgers con bordes crocantes, pasión sin filtro y cero ingredientes artificiales.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3 class="title-mediano">50K+</h3>
+                        <p>Hamburguesas Servidas</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="title-mediano">100%</h3>
+                        <p>Pan Horneado al Día</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="title-mediano">4.9★</h3>
+                        <p>Calificación Clientes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="story-image-box">
+                <div class="stamp-badge">EST. 2024</div>
+                <img src="images/2 de libra.png" alt="Burger FMX Craft" class="story-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- MENÚ PRINCIPAL CON TU FOTO -->
+    <section id="menu" class="menu-section">
+        <div class="section-header">
+            <span class="sub-heading">¿BUSCÁS UN SABOR EXTREMO?</span>
+            <h2 class="title-seccion">NUESTRAS <span class="text-neon">ESPECIALIDADES</span></h2>
+        </div>
+
+        <div class="cards-container">
+            
+            <!-- TARJETA 1 (TU FOTO TRIPLE SMASH) -->
+            <div class="card highlight-card">
+                <div class="card-img-wrapper">
+                    <span class="card-tag tag-hot">🔥 TRIPLE SMASH</span>
+                    <img src="images/2 de libra.png" alt="Bacon Triple Monster">
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3 class="title-tarjeta">Bacon Triple Monster</h3>
+                        <span class="price">$9.800</span>
+                    </div>
+                    <p class="texto-cuerpo">Triple medallón smash, abundante panceta ahumada crocante, extra cheddar fundido y baño de salsa BBQ, servida en tabla con papas rústicas.</p>
+                    <button class="btn-card glow-btn"><i class="fa-solid fa-cart-shopping"></i> Agregar al Pedido</button>
+                </div>
+            </div>
+
+            <!-- TARJETA 2 -->
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <span class="card-tag">MÁS VENDIDA</span>
+                    <img src="images/comun.png" alt="Classic FMX">
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3 class="title-tarjeta">Classic FMX</h3>
+                        <span class="price">$8.500</span>
+                    </div>
+                    <p class="texto-cuerpo">Doble medallón smash, doble cheddar fundido, cebolla crispy, pepinillos y salsa secreta FMX de ajo alioli.</p>
+                    <button class="btn-card"><i class="fa-solid fa-cart-shopping"></i> Agregar al Pedido</button>
+                </div>
+            </div>
+
+            <!-- TARJETA 3 -->
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <span class="card-tag tag-veggie">OPCIÓN VEGAN</span>
+                    <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=500" alt="Veggie FMX">
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3 class="title-tarjeta">Veggie FMX</h3>
+                        <span class="price">$8.000</span>
+                    </div>
+                    <p class="texto-cuerpo">Medallón artesanal de hongos y garbanzos, palta fresca, tomate y lactonesa vegana de hierbas.</p>
+                    <button class="btn-card"><i class="fa-solid fa-cart-shopping"></i> Agregar al Pedido</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COMBOS Y PROMOS -->
+    <section id="combos" class="combos-section">
+        <div class="section-header">
+            <span class="sub-heading">AHORRÁ Y COMÉ A LO GRANDE</span>
+            <h2 class="title-seccion">COMBOS <span class="text-neon">ESPECIALES</span></h2>
+        </div>
+        <div class="combos-grid">
+            <div class="combo-box">
+                <span class="combo-badge">COMBO #1</span>
+                <h3>PACK FULL FMX</h3>
+                <p>Bacon Triple Monster + Papas Grandes Sazonadas + Cerveza Artesanal o Gaseosa.</p>
+                <div class="combo-price-box">
+                    <span class="old-price">$13.500</span>
+                    <span class="price">$11.200</span>
+                </div>
+            </div>
+            <div class="combo-box combo-featured">
+                <span class="combo-badge badge-accent">MÁS PEDIDO</span>
+                <h3>PACK DUO FEAST</h3>
+                <p>2x Classic FMX + 2x Papas Rústicas + 2x Bebidas + Porción de Aros de Cebolla.</p>
+                <div class="combo-price-box">
+                    <span class="old-price">$22.000</span>
+                    <span class="price">$18.500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEÑAS Y TESTIMONIOS -->
+    <section id="reviews" class="reviews-section">
+        <div class="section-header">
+            <span class="sub-heading">OPINIONES REALES</span>
+            <h2 class="title-seccion">LO QUE DICEN NUESTROS <span class="text-neon">CLIENTES</span></h2>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"La mejor smash burger de la zona sin dudas. El borde crocante de la carne y la salsa secreta son de otro nivel."</p>
+                <span class="review-author">- Alejandro M.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"La Bacon Triple Monster es una locura. El pedido llegó súper rápido y el pan estaba suave y tibio."</p>
+                <span class="review-author">- Sofía R.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Excelente ambientación, estética callejera y productos de primera calidad. Recomendado 100%."</p>
+                <span class="review-author">- Lucas G.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- UBICACIÓN Y CONTACTO -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo">BURGER <span class="highlight">FMX</span></a>
+                <p class="texto-cuerpo">Actitud street food, ingredientes premium. Saciando antojos de hamburguesas reales todos los días.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="title-mediano">UBICACIÓN Y HORARIOS</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Av. Corrientes 1234, Buenos Aires</p>
+                <p><i class="fa-solid fa-clock"></i> Mar - Dom: 18:00 - 02:00</p>
+                <p><i class="fa-solid fa-phone"></i> +54 11 1234-5678</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BURGER FMX. Proyecto de Diseño Web maquetado por @urielccs.</p>
+        </div>
+    </footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
